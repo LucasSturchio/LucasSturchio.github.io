@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Lucas Sturchio">
+        <meta name="gerator" content="Visual Studio">
+        <title>Formulario</title>
+        <link rel="stylesheet" type="text/css" href="../css/layoutF.css">
+        <link rel="stylesheet" href="../css/formulario.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <script src="../Javascript/form.js"></script>
+             <form action="#" name="formCadastro" method="post">
+                <p id="header">Sistema Acadêmico</p>
+                <p><strong> Usuários do Sistema Interno<strong><p>
+                <strong>
+                    <label for="login">Login</label>
+                    <input type="text" id="login" name="login" required>
+                    <br>
+                    <label for="senha">Senha</label>
+                    <input type="number" id="senha" name="senha" required>
+                    <br>
+                    <label for="date">Nascimento</label>
+                    <input type="date" id="datacriac" value="datacriac">
+                    <br>
+                    <label for="tipo" req>Tipo</label>
+                    <input type="radio" id="aluno" name="tipo" value="Aluno">
+                    <label for="Tecnico">Aluno</label>
+                    <input type="radio" id="Professor" name="tipo" value="Professor">
+                    <label for="Professor">Professor</label>
+                    <hr>
+                    <label for="perfil">Perfil</label>
+                    <input type="radio" id="convidado" name="perfil" value="convidado">
+                    <label for="convidado">Convidado</label>
+                    <input type="radio" id="administrador" name="perfil" value="administrador">
+                    <label for="perfil">Administrador</label>
+                    <br>
+                </strong>
+                    <div>
+                    <button type="submit" value="enviar" onclick="verificar()">Enviar</button>
+                    <button type="reset" value="limpar">Limpar</button>
+                    </div>
+             </form>        
+    </body>
+    <li>
+        <a href="../Pricipal.html">Volta</a>
+    </li>
+</html>
