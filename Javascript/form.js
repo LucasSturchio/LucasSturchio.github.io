@@ -1,3 +1,3 @@
-function verificar(){
-    alert("Cadastro realizado com sucesso")    
+function verificar() {
+  alert("Cadastro realizado com sucesso");
 }
